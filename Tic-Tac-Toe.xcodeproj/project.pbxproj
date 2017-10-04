@@ -99,11 +99,12 @@
 		D7F0ED511F859F5100AAEB70 /* Tic-Tac-Toe */ = {
 			isa = PBXGroup;
 			children = (
-				D7F0ED521F859F5100AAEB70 /* AppDelegate.swift */,
-				D7F0ED541F859F5100AAEB70 /* ViewController.swift */,
-				D7F0ED561F859F5100AAEB70 /* Main.storyboard */,
+				D7F0ED861F85A1E200AAEB70 /* Images */,
+				D7F0ED851F85A18B00AAEB70 /* Controller */,
+				D7F0ED841F85A18500AAEB70 /* View */,
+				D7F0ED831F85A17B00AAEB70 /* Model */,
 				D7F0ED5C1F859F5100AAEB70 /* Assets.xcassets */,
-				D7F0ED5E1F859F5100AAEB70 /* LaunchScreen.storyboard */,
+				D7F0ED521F859F5100AAEB70 /* AppDelegate.swift */,
 				D7F0ED611F859F5100AAEB70 /* Info.plist */,
 				D7F0ED591F859F5100AAEB70 /* Tic_Tac_Toe.xcdatamodeld */,
 			);
@@ -126,6 +127,37 @@
 				D7F0ED771F859F5100AAEB70 /* Info.plist */,
 			);
 			path = "Tic-Tac-ToeUITests";
+			sourceTree = "<group>";
+		};
+		D7F0ED831F85A17B00AAEB70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7F0ED841F85A18500AAEB70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7F0ED5E1F859F5100AAEB70 /* LaunchScreen.storyboard */,
+				D7F0ED561F859F5100AAEB70 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7F0ED851F85A18B00AAEB70 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7F0ED541F859F5100AAEB70 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7F0ED861F85A1E200AAEB70 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
