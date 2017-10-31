@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D75AFCE21FA824BF001C0C16 /* tic-green.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AFCDA1FA824BD001C0C16 /* tic-green.png */; };
+		D75AFCE31FA824BF001C0C16 /* tac-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AFCDB1FA824BE001C0C16 /* tac-yellow.png */; };
+		D75AFCE41FA824BF001C0C16 /* board-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AFCDC1FA824BE001C0C16 /* board-orange.png */; };
+		D75AFCE51FA824BF001C0C16 /* dash-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AFCDD1FA824BE001C0C16 /* dash-orange.png */; };
+		D75AFCE61FA824BF001C0C16 /* dash-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AFCDE1FA824BE001C0C16 /* dash-pink.png */; };
+		D75AFCE71FA824BF001C0C16 /* O-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AFCDF1FA824BE001C0C16 /* O-pink.png */; };
+		D75AFCE81FA824BF001C0C16 /* X-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AFCE01FA824BF001C0C16 /* X-blue.png */; };
+		D75AFCE91FA824BF001C0C16 /* toe-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D75AFCE11FA824BF001C0C16 /* toe-blue.png */; };
 		D7F0ED531F859F5100AAEB70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F0ED521F859F5100AAEB70 /* AppDelegate.swift */; };
 		D7F0ED551F859F5100AAEB70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F0ED541F859F5100AAEB70 /* ViewController.swift */; };
 		D7F0ED581F859F5100AAEB70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F0ED561F859F5100AAEB70 /* Main.storyboard */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D75AFCDA1FA824BD001C0C16 /* tic-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tic-green.png"; sourceTree = "<group>"; };
+		D75AFCDB1FA824BE001C0C16 /* tac-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tac-yellow.png"; sourceTree = "<group>"; };
+		D75AFCDC1FA824BE001C0C16 /* board-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board-orange.png"; sourceTree = "<group>"; };
+		D75AFCDD1FA824BE001C0C16 /* dash-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dash-orange.png"; sourceTree = "<group>"; };
+		D75AFCDE1FA824BE001C0C16 /* dash-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dash-pink.png"; path = "../../../../../../../../../Desktop/dash-pink.png"; sourceTree = "<group>"; };
+		D75AFCDF1FA824BE001C0C16 /* O-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "O-pink.png"; sourceTree = "<group>"; };
+		D75AFCE01FA824BF001C0C16 /* X-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X-blue.png"; sourceTree = "<group>"; };
+		D75AFCE11FA824BF001C0C16 /* toe-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toe-blue.png"; sourceTree = "<group>"; };
 		D7F0ED4F1F859F5100AAEB70 /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F0ED521F859F5100AAEB70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F0ED541F859F5100AAEB70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +172,14 @@
 		D7F0ED861F85A1E200AAEB70 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D75AFCDC1FA824BE001C0C16 /* board-orange.png */,
+				D75AFCDD1FA824BE001C0C16 /* dash-orange.png */,
+				D75AFCDE1FA824BE001C0C16 /* dash-pink.png */,
+				D75AFCDF1FA824BE001C0C16 /* O-pink.png */,
+				D75AFCDB1FA824BE001C0C16 /* tac-yellow.png */,
+				D75AFCDA1FA824BD001C0C16 /* tic-green.png */,
+				D75AFCE11FA824BF001C0C16 /* toe-blue.png */,
+				D75AFCE01FA824BF001C0C16 /* X-blue.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -267,9 +291,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75AFCE91FA824BF001C0C16 /* toe-blue.png in Resources */,
 				D7F0ED601F859F5100AAEB70 /* LaunchScreen.storyboard in Resources */,
+				D75AFCE51FA824BF001C0C16 /* dash-orange.png in Resources */,
 				D7F0ED5D1F859F5100AAEB70 /* Assets.xcassets in Resources */,
+				D75AFCE41FA824BF001C0C16 /* board-orange.png in Resources */,
+				D75AFCE21FA824BF001C0C16 /* tic-green.png in Resources */,
 				D7F0ED581F859F5100AAEB70 /* Main.storyboard in Resources */,
+				D75AFCE31FA824BF001C0C16 /* tac-yellow.png in Resources */,
+				D75AFCE71FA824BF001C0C16 /* O-pink.png in Resources */,
+				D75AFCE81FA824BF001C0C16 /* X-blue.png in Resources */,
+				D75AFCE61FA824BF001C0C16 /* dash-pink.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

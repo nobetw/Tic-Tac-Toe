@@ -19,23 +19,23 @@ class ViewController: UIViewController {
         [0, 4, 8], [2, 4, 6]] // diagonal slots
     
     // todo: create gameStatus label
+    @IBOutlet weak var endGameLabel: UILabel!
     
-    // todo: link to UI buttons
     // Called when slot (button) is selected
     // Restarts game when each round concludes
-    func slotSelected(_ button: UIButton) {
+    @IBAction func slotSelected(_ sender: UIButton) {
         if gameState == 0 && turnCount < 9{
-            if(updatedSlot(button)) {
+            if(updatedSlot(sender)) {
                 gameState = getGameStatus()
                 if gameState == 1 {
-                    print("O's win!")
+                    endGameLabel.text = "O's win!"
                 } else if gameState == -1 {
-                    print("X's win!")
+                    endGameLabel.text = "X's win!"
                 } else {
                     turnCount += 1
                     // Draw when no winner has been determined after all slots have been occupied
                     if turnCount == 9 {
-                        print("Draw!")
+                        endGameLabel.text = "Draw..."
                     }
                 }
             }
@@ -50,12 +50,12 @@ class ViewController: UIViewController {
     // If 'O', supply board with 1
     // If 'X', supply board with -1
     func updatedSlot(_ button: UIButton) -> Bool {
-        if button.currentImage == nil {
+        if button.currentBackgroundImage == nil {
             if turnCount % 2 == 0 {
-                button.setImage(UIImage(named:"O"), for: UIControlState.normal)
+                button.setBackgroundImage(UIImage(named:"O-pink"), for: UIControlState.normal)
                 board[button.tag - 1] = 1
             } else {
-                button.setImage(UIImage(named:"X"), for: UIControlState.normal)
+                button.setBackgroundImage(UIImage(named:"X-blue"), for: UIControlState.normal)
                 board[button.tag - 1] = -1
             }
             return true
@@ -77,6 +77,7 @@ class ViewController: UIViewController {
     
     // Reinitialize globals for new game
     func refreshGameState() {
+        endGameLabel.text = ""
         turnCount = 0
         gameState = 0
         board = Array(repeating: 0, count: 9)
@@ -84,7 +85,7 @@ class ViewController: UIViewController {
         // Clear image used for each button in View
         for view in self.view.subviews as [UIView] {
             if let btn = view as? UIButton {
-                btn.setImage(nil, for: UIControlState.normal)
+                btn.setBackgroundImage(nil, for: UIControlState.normal)
             }
         }
     }
